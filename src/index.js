@@ -4,19 +4,6 @@ import resume from "./assets/resume.pdf";
 
 import "./style/main.scss";
 
-<<<<<<< Updated upstream
-$('a[href^="#"]').on("click", function (event) {
-  var target = $(this.getAttribute("href"));
-  if (target.length) {
-    event.preventDefault();
-    $("html, body").stop().animate(
-      {
-        scrollTop: target.offset().top,
-      },
-      1000
-    );
-  }
-=======
 
 $('a[href^="#"]').on('click', function (event) {
 	var target = $(this.getAttribute('href'));
@@ -29,7 +16,7 @@ $('a[href^="#"]').on('click', function (event) {
 			1000,
 		);
 	}
->>>>>>> Stashed changes
+
 });
 
 theme();
