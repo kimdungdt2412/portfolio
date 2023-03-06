@@ -1,22 +1,22 @@
 /* Dark Mode styles */
 body.dark-theme {
-	background: #272341;
+	background: #2C2C3C;
 
 	#hero,
 	#projects,
 	footer {
-		background: #272341;
-		color: #e4bad4;
+		background: #2C2C3C;
+		color: #8fe0bd;
 	}
 
 	#about,
 	#contact {
-		background: #44405f;
-		color: #e4bad4;
+		background: #27473f;
+		color: #8fe0bd;
 
 		a {
-			color: #e4bad4;
-			border: 2px solid #e4bad4;
+			color: #8fe0bd;
+			border: 2px solid #8fe0bd;
 			&:hover {
 				border: 2px solid #fff;
 			}
@@ -32,13 +32,13 @@ body.dark-theme {
 		border: 2px solid #fff;
 
 		&:hover {
-			border: 2px solid #e4bad4;
+			border: 2px solid #8fe0bd;
 		}
 	}
 
 	footer {
 		a {
-			background-color: #272341;
+			background-color: #2C2C3C;
 		}
 	}
 }
